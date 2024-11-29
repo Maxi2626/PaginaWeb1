@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1b263b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icono-instagram {
+    position: absolute;
+    top: 30px; 
+    right: 30px; 
+}
+
+.icono-instagram img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.icono-instagram img:hover {
+    transform: scale(1.1);
+}
+
+
+#productos {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #be957a;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin: 10px 0 5px;
+}
+
+.producto p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0078d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: auto; 
+}
+
